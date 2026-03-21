@@ -4,7 +4,7 @@
 #include <windows.h>
 
 // Структура для деталей (вложенная)
-struct details {
+struct details67 {
     int salary;        // зарплата
     int experience;    // стаж (лет)
 };
