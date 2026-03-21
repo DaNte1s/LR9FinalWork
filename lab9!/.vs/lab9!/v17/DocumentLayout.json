@@ -1,9 +1,16 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\amd\\Desktop\\lab9!\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{9F57ACAB-7BCD-4C8A-AD53-91BE4938CB87}|lab9!\\lab9!.vcxproj|C:\\Users\\amd\\Desktop\\lab9!\\lab9!\\lab9!.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\amd\\source\\repos\\lab9!\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F57ACAB-7BCD-4C8A-AD53-91BE4938CB87}|lab9!\\lab9!.vcxproj|C:\\Users\\amd\\source\\repos\\lab9!\\lab9!\\lab9!.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+>>>>>>> master
       "RelativeMoniker": "D:0:0:{9F57ACAB-7BCD-4C8A-AD53-91BE4938CB87}|lab9!\\lab9!.vcxproj|solutionrelative:lab9!\\lab9!.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +27,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "lab9!.cpp",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\amd\\Desktop\\lab9!\\lab9!\\lab9!.cpp",
               "RelativeDocumentMoniker": "lab9!\\lab9!.cpp",
               "ToolTip": "C:\\Users\\amd\\Desktop\\lab9!\\lab9!\\lab9!.cpp",
               "RelativeToolTip": "lab9!\\lab9!.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAABJAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\amd\\source\\repos\\lab9!\\lab9!\\lab9!.cpp",
+              "RelativeDocumentMoniker": "lab9!\\lab9!.cpp",
+              "ToolTip": "C:\\Users\\amd\\source\\repos\\lab9!\\lab9!\\lab9!.cpp",
+              "RelativeToolTip": "lab9!\\lab9!.cpp",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHYAAABJAAAAAAAAAA==",
+>>>>>>> master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-27T17:15:11.7Z",
               "EditorCaption": ""
