@@ -4,7 +4,6 @@
 #include <windows.h>
 
 // Структура для деталей (вложенная)
-
 struct details67 {
     int salary;        // зарплата
     int experience;    // стаж (лет)
@@ -15,7 +14,7 @@ struct structure {
     int number;           // номер по порядку
     char name[50];        // название профессии
     int code;             // код профессии
-    struct details specs; // характеристики профессии
+    struct details67 specs; // ИЗМЕНЕНИЕ (Averin): исправлено название структуры
 };
 
 // Функция для очистки буфера ввода
@@ -42,6 +41,12 @@ void inputData(struct structure arr[], int n) {
 
         printf("  Код профессии (число): ");
         scanf_s("%d", &arr[i].code);
+
+        // ИЗМЕНЕНИЕ (Averin): добавлена проверка на положительность первой объявленной переменной
+        // (в контексте ввода это переменная code; выводим сообщение, если код <= 0)
+        if (arr[i].code <= 0) {
+            printf("  ВНИМАНИЕ: код профессии должен быть положительным числом!\n");
+        }
 
         printf("  Зарплата: ");
         scanf_s("%d", &arr[i].specs.salary);
