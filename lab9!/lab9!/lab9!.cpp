@@ -14,6 +14,7 @@ struct structure {
     int number;           // номер по порядку
     char name[50];        // название профессии
     int code;             // код профессии
+    char characteristic[10]; // кратакая характеристика
     struct details67 specs; // ИЗМЕНЕНИЕ (Averin): исправлено название структуры
 };
 
