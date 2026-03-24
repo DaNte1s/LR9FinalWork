@@ -142,13 +142,15 @@ int main(void) {
     getchar();
 
     int mas[20] = {};
+    int su = 0;
     for (int i = 0; i < 20; i++){
         mas[i] = 0;
 }
     for (int i = 0; i < 20; i++){
         mas[i] = sin(i);
+        su  += mas[i];
         printf("%d", mas[i]);
 }
-
+    printf("Sum = %d", su);
     return 0;
 }
