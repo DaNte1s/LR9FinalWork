@@ -140,5 +140,9 @@ int main(void) {
     printf("\nНажмите Enter для выхода...");
     getchar();
 
+    int mas[20] = {};
+    for (int i = 0; i < 20){
+        mas[i] = 0;
+}
     return 0;
 }
