@@ -2,6 +2,7 @@
 #include <locale.h>
 #include <string.h>
 #include <windows.h>
+#include <math.h>
 
 // Структура для деталей (вложенная)
 struct details67 {
@@ -141,8 +142,13 @@ int main(void) {
     getchar();
 
     int mas[20] = {};
-    for (int i = 0; i < 20){
+    for (int i = 0; i < 20; i++){
         mas[i] = 0;
 }
+    for (int i = 0; i < 20; i++){
+        mas[i] = sin(i);
+        printf("%d", mas[i]);
+}
+
     return 0;
 }
