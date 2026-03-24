@@ -140,7 +140,7 @@ int main(void) {
 
     printf("\nНажмите Enter для выхода...");
     getchar();
-
+// modified
     int mas[20] = {};
     int su = 0;
     for (int i = 0; i < 20; i++){
